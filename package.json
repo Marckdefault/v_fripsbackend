@@ -6,7 +6,8 @@
   "type": "commonjs",
   "scripts": {
     "dev": "nodemon src/index.js",
-    "start": "nodemon src/index.js"
+    "start": "nodemon src/index.js",
+    "build": "npm install && npx sequelize-cli db:migrate"
   },
   "keywords": [],
   "author": "",
